@@ -108,7 +108,6 @@ async function unoswapFn(tx) {
         "srcAmount": decodedInput[1],
         "desToken": desToken,
         "desAmount": decodedInput[2],
-        "pools": decodedInput[3],
         "dex": dexName,
         "hash": tx.hash
     }
